@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-2.jpg);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-7.jpg);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <div>
