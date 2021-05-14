@@ -3798,6 +3798,9 @@ hr {
 }
 
 .team-area .single-cat .cat-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin: 0 auto;
     margin-bottom: 30px;
 }
