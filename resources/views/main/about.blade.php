@@ -34,7 +34,7 @@
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="front-text">
-                        <h2>Who is SAVAGES</h2>
+                        <h2>Who is <span class="font-dalek">SAVAGES</span></h2>
                         <p>SAVAGES is a science based company in the fitness industry, we do things differently, we don't believe in average, either the best or nothing.</p>
                         <p>The journey of being intelligent, powerful, strong and in shape is painful and hard, but we don't fear pain, we welcome it.</p>
                         <p>We provide science based training programs with guaranteed results and we provide unique powerlifting gym equipment.</p>

@@ -14,10 +14,10 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-9 col-md-10">
                                 <div class="hero__caption">
-                                    <span data-animation="fadeInLeft" data-delay="0.1s">Hi Welcome to</span>
-                                    <h1 data-animation="fadeInLeft" data-delay="0.4s">SAVAGES</h1>
+                                    <span data-animation="fadeInLeft" data-delay="0.5s">Welcome to</span>
+                                    <h1 data-animation="fadeInLeft" data-delay="1s">SAVAGES</h1>
                                     <a href="/program" class="border-btn hero-btn" data-animation="fadeInLeft"
-                                        data-delay="0.8s">Our Programs</a>
+                                        data-delay="0.8s">Our Products</a>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="single-topic text-center mb-30">
                             <div class="topic-img">
-                                <img src="assets/img/gallery/cat1.png" alt="">
+                                <img src="assets/img/gallery/pro-7.jpg" alt="">
                                 <div class="topic-content-box">
                                     <div class="topic-content">
                                         <h3>Personal traning</h3>
@@ -74,7 +74,18 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="cat-icon">
+                                <img src="assets/img/program/pro-3.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5>Power Bodybuilding</h5>
+                                <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
                         <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                             <div class="cat-icon">
                                 <img src="assets/img/gallery/team1.png" alt="">
@@ -85,18 +96,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                             <div class="cat-icon">
                                 <img src="assets/img/gallery/team2.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5>Muscle Gain</h5>
+                                <h5>Strength Gain</h5>
                                 <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                             <div class="cat-icon">
                                 <img src="assets/img/gallery/team3.png" alt="">

@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Training Courses</h2>
+                            <h2>Training Programs</h2>
                         </div>
                     </div>
                 </div>
