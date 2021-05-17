@@ -2810,14 +2810,14 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/sub-hero.png);
+    background-image: url(../img/hero/sub-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-area {
     margin-top: -1px;
-    background-image: url(../img/hero/hero.png);
+    background-image: url(../img/hero/hero.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
