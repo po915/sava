@@ -33,7 +33,7 @@
                                     <h3>The bench</h3>
                                     <p class="main-price">4999.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                                     <h3>the rig</h3>
                                     <p class="main-price">25000.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                     <h3>dead-lift platform</h3>
                                     <p class="main-price">3500.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                     <h3>the-sled</h3>
                                     <p class="main-price">2000.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                                     <h3>chalk-box</h3>
                                     <p class="main-price">1000.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                                     <h3>dips-attachement</h3>
                                     <p class="main-price">700.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn buy-product">Buy Now</button>
                             </div>
                         </div>
                     </div>

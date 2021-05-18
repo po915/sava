@@ -211,3 +211,7 @@
   });
 
 })(jQuery);
+
+$('.snake').on('click', function() {
+  window.location.href = '/detail'
+})

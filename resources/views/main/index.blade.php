@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
+                            <div class="topic-img ">
                                 <img src="assets/img/gallery/pro-7.jpg" alt="">
                                 <div class="topic-content-box">
                                     <div class="topic-content">
@@ -143,7 +143,7 @@
                                             <h3>venom</h3>
                                             <p class="main-price">399.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn join-program">Join Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                             <h3>rage</h3>
                                             <p class="main-price">199.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn join-program">Join Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                             <h3>re-load</h3>
                                             <p class="main-price">199.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn join-program">Join Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@
                                             <h3>The bench</h3>
                                             <p class="main-price">4999.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn buy-product">Buy Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                             <h3>the rig</h3>
                                             <p class="main-price">25000.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn buy-product">Buy Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +238,7 @@
                                             <h3>dead-lift platform</h3>
                                             <p class="main-price">3500.00 SAR </p>
                                         </div>
-                                        <a href="#"><i class="ti-plus"></i></a>
+                                        <button class="border-btn buy-product">Buy Now</button>
                                     </div>
                                 </div>
                             </div>

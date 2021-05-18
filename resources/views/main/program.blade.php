@@ -34,7 +34,7 @@
                                     <h3>venom</h3>
                                     <p class="main-price">399.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                                     <h3>rage</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                     <h3>re-load</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                     <h3>full-force</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                                     <h3>deadlift-boost</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                     <h3>deadlift-focus</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <a href="#"><i class="ti-plus"></i></a>
+                                <button class="border-btn join-program">Join Now</button>
                             </div>
                         </div>
                     </div>

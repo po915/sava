@@ -41,4 +41,32 @@ class MainController extends Controller
     public function schedule() {
         return view('main.schedule');
     }
+
+    public function productDetail() {
+        return view('main.product_detail');
+    }
+
+    public function programDetail() {
+        return view('main.program_detail');
+    }
+
+    public function programCart() {
+        return view('main.program_cart');
+    }
+
+    public function productCart() {
+        return view('main.product_cart');
+    }
+
+    public function checkoutOne() {
+        return view('main.checkout_one');
+    }
+
+    public function checkoutTwo() {
+        return view('main.checkout_two');
+    }
+
+    public function checkoutThree() {
+        return view('main.checkout_three');
+    }
 }
