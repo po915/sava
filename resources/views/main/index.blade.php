@@ -16,7 +16,7 @@
                                 <div class="hero__caption">
                                     <span data-animation="fadeInLeft" data-delay="0.5s">Welcome to</span>
                                     <h1 data-animation="fadeInLeft" data-delay="1s">SAVAGES</h1>
-                                    <a href="/program" class="border-btn hero-btn" data-animation="fadeInLeft"
+                                    <a href="/shop" class="border-btn hero-btn" data-animation="fadeInLeft"
                                         data-delay="0.8s">Our Products</a>
                                 </div>
                             </div>

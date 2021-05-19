@@ -48,7 +48,7 @@
                                     <h3>rage</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <button class="border-btn join-program">Join Now</button>
+                                <button class="border-btn join-program">continue training</button>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                     <h3>deadlift-focus</h3>
                                     <p class="main-price">199.00 SAR </p>
                                 </div>
-                                <button class="border-btn join-program">Join Now</button>
+                                <button class="border-btn join-program">continue training</button>
                             </div>
                         </div>
                     </div>
