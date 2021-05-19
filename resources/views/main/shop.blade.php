@@ -27,7 +27,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-1.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>The bench</h3>
@@ -41,7 +41,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-2.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>the rig</h3>
@@ -55,7 +55,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-3.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>dead-lift platform</h3>
@@ -69,7 +69,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-4.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>the-sled</h3>
@@ -83,7 +83,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-5.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>chalk-box</h3>
@@ -97,7 +97,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/product/product-6.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='product'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>dips-attachement</h3>

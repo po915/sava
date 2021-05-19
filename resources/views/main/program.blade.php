@@ -28,7 +28,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-1.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>venom</h3>
@@ -42,7 +42,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-7.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>rage</h3>
@@ -56,7 +56,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-3.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>re-load</h3>
@@ -70,7 +70,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-4.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>full-force</h3>
@@ -84,7 +84,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-5.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>deadlift-boost</h3>
@@ -98,7 +98,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
                         <div class="gallery-img big-img" style="background-image: url(assets/img/program/pro-6.jpg);"></div>
-                        <div class="overlay">
+                        <div class="overlay" data-type='program'>
                             <div class="overlay-content">
                                 <div>
                                     <h3>deadlift-focus</h3>

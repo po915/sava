@@ -193,11 +193,11 @@
       });
     }
 
-/* 13. counterUp*/
-    $('.counter').counterUp({
-      delay: 10,
-      time: 3000
-    });
+// /* 13. counterUp*/
+//     $('.counter').counterUp({
+//       delay: 10,
+//       time: 3000
+//     });
 
 /* 14. Datepicker */
   $('#datepicker1').datepicker();
@@ -212,6 +212,28 @@
 
 })(jQuery);
 
-$('.snake').on('click', function() {
-  window.location.href = '/detail'
+// $('.buy-product').on('click', function() {
+//   window.location.href = '/product-cart'
+// })
+
+// $('.overlay').on('click', function(e) {
+//   // if( $(this).hasClass('buy-product') ) {
+//   //   window.location.href = '/product-cart'
+//   // } else {
+//   //   window.location.href = '/product-detail'
+//   // }
+//   if($(e.target).is('div') && !$(e.target).is('button') ) window.location.href = '/product-detail'
+//   else if ($(e.target).is('button')) window.location.href = '/product-detail'
+// })
+
+$('.overlay').on('click', function() {
+  if($(this).data('type') == 'program') {
+    window.location.href = '/program-detail'
+  } else {
+    window.location.href = '/product-detail'
+  }
+})
+
+$('.product-buy').on('click', function() {
+  window.location.href = '/product-cart'
 })

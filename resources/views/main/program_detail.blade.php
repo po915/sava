@@ -58,7 +58,7 @@
                         </ul>
                     </div>
                     <div class="row">
-                        <a class="border-btn product-buy">Join Now</a>
+                        <a href="/program-cart" class="border-btn product-buy">Join Now</a>
                     </div>
                 </div>
             </div>

@@ -137,7 +137,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/program/pro-1.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='program'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>venom</h3>
@@ -152,7 +152,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/program/pro-5.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='program'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>rage</h3>
@@ -167,7 +167,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/program/pro-3.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='program'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>re-load</h3>
@@ -202,7 +202,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/product/product-1.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='product'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>The bench</h3>
@@ -217,7 +217,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/product/product-2.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='product'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>the rig</h3>
@@ -232,7 +232,7 @@
                             <div class="box snake mb-30">
                                 <div class="gallery-img big-img"
                                     style="background-image: url(assets/img/product/product-3.jpg);"></div>
-                                <div class="overlay">
+                                <div class="overlay" data-type='product'>
                                     <div class="overlay-content">
                                         <div>
                                             <h3>dead-lift platform</h3>

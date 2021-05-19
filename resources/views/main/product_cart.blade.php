@@ -94,12 +94,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="container mt-5">
+                {{-- <div class="container mt-5">
                     <div class="d-flex align-items-center justify-content-center justify-content-md-end flex-column flex-md-row">
                         <a href="#" class="sm-border-btn mr-3">Continue Shopping</a>
                         <a href="#" class="sm-border-btn">Update Cart</a>
                     </div>
-                </div>
+                </div> --}}
             </section>
             <section class="order-details mt-5">
                 <div class="container">
