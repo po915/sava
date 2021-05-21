@@ -5678,23 +5678,6 @@ hr {
     font-size: 24px;
 }
 
-b,
-sup,
-sub,
-u,
-del {
-    color: #1f2b7b;
-}
-
-.typography h1,
-.typography h2,
-.typography h3,
-.typography h4,
-.typography h5,
-.typography h6 {
-    color: #828bb2;
-}
-
 .button-area {
     background: #fff;
 }
@@ -7663,4 +7646,32 @@ section.checkout .sm-border-btn {
 }
 .radio-template:checked + label::after {
 	opacity: 1;
+}
+
+.accourdion-item button {
+    background-color: #ddd;
+}
+
+.header-block {
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+}
+
+.header-block label {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.header-block input {
+    background: none;
+    border-radius: 0px !important;
+    border: 1px solid #ddd;
+}
+
+.header-block .form-control:focus {
+    background-color: #000 !important;
+    color: #fff;
+    outline: 0;
+    box-shadow: none !important;
 }

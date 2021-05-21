@@ -24,3 +24,4 @@ Route::get('/program-cart', [MainController::class, 'programCart']);
 Route::get('/checkout-one', [MainController::class, 'checkoutOne']);
 Route::get('/checkout-two', [MainController::class, 'checkoutTwo']);
 Route::get('/checkout-three', [MainController::class, 'checkoutThree']);
+Route::get('/program-venom', [MainController::class, 'programVenom']);

@@ -69,4 +69,8 @@ class MainController extends Controller
     public function checkoutThree() {
         return view('main.checkout_three');
     }
+
+    public function programVenom() {
+        return view('main.program_venom');
+    }
 }

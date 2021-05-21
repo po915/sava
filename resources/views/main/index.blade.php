@@ -110,7 +110,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                             <div class="cat-icon">
-                                <img src="assets/img/gallery/team3.png" alt="">
+                                <img src="assets/img/gallery/team2.png" alt="">
                             </div>
                             <div class="cat-cap">
                                 <h5>Weight Loss</h5>
