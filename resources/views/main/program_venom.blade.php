@@ -39,8 +39,13 @@
 
         .nav-pills .nav-link.active {
             background-color: #ff1313;
+            border: none;
         }
-
+        .nav-link {
+            font: 20px;
+            border: 1px solid #ddd;
+            margin: 5px;
+        }
     </style>
 @endsection
 
@@ -913,8 +918,8 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="text-center mt-3">
-                            <h2>Week 3</h2>
+                        <div class="text-center mt-5">
+                            <h2 id="weekThree">Week 3</h2>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-6 pr-2">
@@ -922,11 +927,11 @@
                                     <div class="row">
                                         <div class="form-group col-md-6">
                                             <label>1RM Squat</label>
-                                            <input type="number" class="form-control" id="week3-squat-val" value="600" />
+                                            <input type="number" class="form-control" id="week3-squat-val" value="345" />
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>1RM Bench</label>
-                                            <input type="number" class="form-control" id="week3-bench-val" value="270" />
+                                            <input type="number" class="form-control" id="week3-bench-val" value="272" />
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>1RM Deatlift</label>
@@ -1378,6 +1383,292 @@
                                         <td></td>
                                         <td>10</td>
                                         <td>3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        {{-- -------------------------- Week4 ------------------------- --}}
+                        <div class="table-box text-center">
+                            <div class="text-center mt-5">
+                                <h2 id="weekFour">Week 4</h2>
+                            </div>
+                            <div class="header-block">
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <label>1RM Squat</label>
+                                        <input type="number" class="form-control" id="week4-squat-val" value="335" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>1RM Bench</label>
+                                        <input type="number" class="form-control" id="week4-bench-val" value="262" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>1RM Deatlift</label>
+                                        <input type="number" class="form-control" id="week4-deadlift-val" value="550" />
+                                    </div>
+                                </div>
+                                <div class="row px-3 pt-3">
+                                    <button class="sm-border-btn" id="week4-attack">Attack!</button>
+                                </div>
+                            </div>
+                            <table class="text-white mt-4">
+                                <thead>
+                                    <th>Day1 (Squat, Bench, Deadlift)</th>
+                                    <th>Set 1</th>
+                                    <th>Set 2</th>
+                                    <th>Set 3</th>
+                                    <th>Set 4</th>
+                                    <th>Set 5</th>
+                                    <th>Reps</th>
+                                    <th>Working Sets</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Squat x9 Reps</td>
+                                        <td class="week4-squat" data-rate='0.8'>268</td>
+                                        <td class="week4-squat" data-rate='0.8'>268</td>
+                                        <td class="week4-squat" data-rate='0.8'>268</td>
+                                        <td class="week4-squat" data-rate='0.8'>268</td>
+                                        <td></td>
+                                        <td>9</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bench Press</td>
+                                        <td class="week4-bench" data-rate='0.8'>210</td>
+                                        <td class="week4-bench" data-rate='0.8'>210</td>
+                                        <td class="week4-bench" data-rate='0.8'>210</td>
+                                        <td class="week4-bench" data-rate='0.8'>210</td>
+                                        <td></td>
+                                        <td>9</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Deadlift</td>
+                                        <td class="week4-deadlift" data-rate='0.75'>413</td>
+                                        <td class="week4-deadlift" data-rate='0.75'>413</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>9</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="text-white mt-5">
+                                <thead>
+                                    <th>Day 2 - Upper Hypertrophy</th>
+                                    <th>Set 1</th>
+                                    <th>Set 2</th>
+                                    <th>Set 3</th>
+                                    <th>Set 4</th>
+                                    <th>Set 5</th>
+                                    <th>Reps</th>
+                                    <th>Working Sets</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Squat x9 Reps</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lats Pull Down | DB Press</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lateral Row | Chest Machine</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cable side delts | Cable X-over</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seated Cable Row | Shrugs BB</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BB curls | Dips</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Incl DB Curls | Rope Push down</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cable Curls | Triceps push-down</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="text-white mt-4">
+                                <thead>
+                                    <th>Day 3 - Squats, Bench & Deadlift</th>
+                                    <th>Set 1</th>
+                                    <th>Set 2</th>
+                                    <th>Set 3</th>
+                                    <th>Set 4</th>
+                                    <th>Set 5</th>
+                                    <th>Reps</th>
+                                    <th>Working Sets</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Squat x9 Reps</td>
+                                        <td class="week4-squat" data-rate='0.7'>235</td>
+                                        <td class="week4-squat" data-rate='0.7'>437</td>
+                                        <td class="week4-squat" data-rate='0.7'>437</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bench Press</td>
+                                        <td class="week4-bench" data-rate='0.7'>197</td>
+                                        <td class="week4-bench" data-rate='0.7'>197</td>
+                                        <td class="week4-bench" data-rate='0.7'>197</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Deadlift</td>
+                                        <td class="week4-deadlift" data-rate='0.7'>401</td>
+                                        <td class="week4-deadlift" data-rate='0.7'>401</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>4</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="text-white mt-4">
+                                <thead>
+                                    <th>Day 5 - Rep Test</th>
+                                    <th>Set 1</th>
+                                    <th>Set 2</th>
+                                    <th>Set 3</th>
+                                    <th>Set 4</th>
+                                    <th>Set 5</th>
+                                    <th>Reps</th>
+                                    <th>Working Sets</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Squat x9 Reps</td>
+                                        <td class="week4-squat" data-rate='0.85'>510</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bench Press</td>
+                                        <td class="week4-bench" data-rate='0.85'>230</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Deadlift</td>
+                                        <td class="week4-deadlift" data-rate='0.85'>468</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="mt-4">
+                                <thead>
+                                    <tr>
+                                        <th colspan="6" class="text-left">Auto-Regulation for Week 4</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-white">
+                                    <tr>
+                                        <td class="text-left"># of Reps<br><b>SQUAT</b></td>
+                                        <td>1-4<br><b class="rm_squat_1" data-rate="0.97">582</b></td>
+                                        <td>5<br><b class="rm_squat_1" data-rate="1">600</b></td>
+                                        <td>6-7<br><b class="rm_squat_1" data-rate="1.015">609</b></td>
+                                        <td>8+<br><b class="rm_squat_1" data-rate="1.025">618</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left"># of Reps<br><b>BENCH PRESS</b></td>
+                                        <td>1-4<br><b class="rm_bench_1" data-rate="0.97">262</b></td>
+                                        <td>5-6<br><b class="rm_bench_1" data-rate="1">270</b></td>
+                                        <td>7-8<br><b class="rm_bench_1" data-rate="1.015">278</b></td>
+                                        <td>9-10<br><b class="rm_bench_1" data-rate="1.025">278</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left"># of Reps<br><b>DEADLIFT</b></td>
+                                        <td>1-4<br><b class="rm_deadlift_1" data-rate="0.97">534</b></td>
+                                        <td>5-6<br><b class="rm_deadlift_1" data-rate="1">550</b></td>
+                                        <td>7-8<br><b class="rm_deadlift_1" data-rate="1.015">558</b></td>
+                                        <td>9-10<br><b class="rm_deadlift_1" data-rate="1.025">567</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6">*These numbers are calculated by based on
+                                            the performance of days 19 and 20, which will determine the difficulty for
+                                            the next week of this block.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -5357,9 +5648,6 @@
                 $(this).html(newVal)
             })
             // Week 2 ////////////////////////
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $("#first-week").offset().top - 120
-            }, 1000);
         }
 
         function weekThree() {
@@ -5382,34 +5670,54 @@
                 let newVal = Math.floor(rate * deadlift)
                 $(this).html(newVal)
             })
+        }
+        function weekFour() {
+            var squat = Number($('#week4-squat-val').val())
+            var bench = Number($('#week4-bench-val').val())
+            var deadlift = Number($('#week4-deadlift-val').val())
 
-            // $('.rm_squat_1').each(function() {
-            //     var rate = Number($(this).data('rate'))
-            //     let newVal = Math.floor(rate * squat)
-            //     $(this).html(newVal)
-            // })
-            // $('.rm_bench_1').each(function() {
-            //     var rate = Number($(this).data('rate'))
-            //     let newVal = Math.floor(rate * bench)
-            //     $(this).html(newVal)
-            // })
-            // $('.rm_deadlift_1').each(function() {
-            //     var rate = Number($(this).data('rate'))
-            //     let newVal = Math.floor(rate * deadlift)
-            //     $(this).html(newVal)
-            // })
-            // Week 2 ////////////////////////
-            // $([document.documentElement, document.body]).animate({
-            //     scrollTop: $("#first-week").offset().top - 120
-            // }, 1000);
+            $('.week4-squat').each(function() {
+                var rate = Number($(this).data('rate'))
+                let newVal = Math.floor(rate * squat)
+                $(this).html(newVal)
+            })
+            $('.week4-bench').each(function() {
+                var rate = Number($(this).data('rate'))
+                let newVal = Math.floor(rate * bench)
+                $(this).html(newVal)
+            })
+            $('.week4-deadlift').each(function() {
+                var rate = Number($(this).data('rate'))
+                let newVal = Math.floor(rate * deadlift)
+                $(this).html(newVal)
+            })
         }
 
         $('#week1-attack').on('click', function() {
             weekOne()
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#first-week").offset().top - 120
+            }, 1000);
         })
 
         $('#week3-attack').on('click', function() {
             weekThree()
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#weekThree").offset().top - 120
+            }, 1000);
+        })
+
+        $('#week4-attack').on('click', function() {
+            weekFour()
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#weekFour").offset().top - 120
+            }, 1000);
+        })
+
+        $(document).ready(function() {
+            weekOne()
+            weekThree()
+            weekFour()
         })
 
     </script>

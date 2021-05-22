@@ -143,7 +143,7 @@
                                             <h3>venom</h3>
                                             <p class="main-price">399.00 SAR </p>
                                         </div>
-                                        <button class="border-btn join-program">Join Now</button>
+                                        <a href="/program-venom" class="border-btn join-program">Continue Training</a>
                                     </div>
                                 </div>
                             </div>
