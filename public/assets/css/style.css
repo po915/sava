@@ -2804,33 +2804,63 @@ hr {
     height: 900px;
 }
 
+@media only screen and (min-width: 1921px) and (max-width: 3800px) {
+    .slider-area {
+        background-size: 100%;
+    }
+    .slider-height {
+        height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+    .slider-area {
+        background-size: 100%;
+    }
+    .slider-height {
+        height: 900px;
+    }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .slider-area {
+        background-size: cover;
+    }
     .slider-height {
         height: 800px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-area {
+        background-size: cover;
+    }
     .slider-height {
         height: 650px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-area {
+        background-size: cover;
+    }
     .slider-height {
         height: 600px;
     }
 }
 
 @media (max-width: 575px) {
+    .slider-area {
+        background-size: cover;
+    }
     .slider-height {
-        height: 400px;
+        height: 550px;
     }
 }
 
 .slider-height2 {
-    height: 450px;
-    background-size: cover;
+    height: 550px;
+    background-size: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2852,21 +2882,24 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/sub-hero.jpg);
+    background-image: url(../img/hero/hero-sub.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .slider-area {
+    width: 100%;
+    /*height: 100%;*/
     margin-top: -1px;
-    background-image: url(../img/hero/hero.jpg);
+    background-image: url(../img/hero/hero3.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    /*background-size: cover;*/
     background-attachment: fixed;
 }
 
 .slider-area .hero__caption {
+    text-align: center;
     overflow: hidden;
 }
 
@@ -3678,7 +3711,7 @@ hr {
 }
 
 .gallery-area {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 70px;
     padding-left: 45px;
     padding-right: 45px;
@@ -3708,6 +3741,7 @@ hr {
 
 .gallery-area .box .gallery-img {
     height: 565px;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }

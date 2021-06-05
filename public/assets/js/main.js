@@ -235,12 +235,13 @@
 
 $(".overlay").on("click", function (e) {
     if ($(e.target).is("div") && !$(e.target).is("button")) {
+        var id = $(this).data("id")
         switch ($(this).data("type")) {
             case "product":
-                window.location.href = "/product-detail";
+                window.location.href = "/product-detail/"+id;
                 break;
             case "program":
-                window.location.href = "/program-detail";
+                window.location.href = "/program-detail/"+id;
         }
     } else if ($(e.target).is("button")) {
         switch ($(this).data("type")) {

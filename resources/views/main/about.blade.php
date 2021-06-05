@@ -23,7 +23,7 @@
     </div>
 
     <section class="about-area2 fix pb-padding pt-50 pb-80">
-        <div class="support-wrapper align-items-center">
+        <div class="support-wrapper align-items-center mt-3">
             <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
                 <!-- img -->
                 <div class="right-img">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="support-wrapper align-items-center">
+        <div class="support-wrapper align-items-center mt-3">
             <div class="left-content2">
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="support-wrapper align-items-center">
+        <div class="support-wrapper align-items-center mt-3">
             <div class="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
                 <!-- img -->
                 <div class="right-img">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <div class="support-wrapper align-items-center">
+        <div class="support-wrapper align-items-center mt-3">
             <div class="left-content2">
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">

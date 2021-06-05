@@ -3,74 +3,151 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
+use App\Models\Program;
 
 class MainController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('main.index');
     }
 
-    public function program() {
-        return view('main.program');
+    public function program()
+    {
+        $gets = Program::get();
+
+        $programs = array();
+        foreach ($gets as $get) {
+            $photos = json_decode($get->photos);
+
+            $program = (object)
+            [
+                'id' => $get->id,
+                'name' => $get->name,
+                'price' => $get->price,
+                'photos' => $photos
+            ];
+            $programs[] = $program;
+        }
+        return view('main.program')
+            ->with('programs', $programs);
     }
 
-    public function about() {
+    public function about()
+    {
         return view('main.about');
     }
 
-    public function contact() {
+    public function contact()
+    {
         return view('main.contact');
     }
 
-    public function shop() {
-        return view('main.shop');
+    public function shop()
+    {
+        $gets = Product::get();
+
+        $products = array();
+        foreach ($gets as $get) {
+            $photos = json_decode($get->photos);
+
+            $product = (object)
+            [
+                'id' => $get->id,
+                'name' => $get->name,
+                'price' => $get->price,
+                'photos' => $photos
+            ];
+            $products[] = $product;
+        }
+
+        return view('main.shop')
+            ->with('products', $products);
     }
 
-    public function membership() {
+    public function membership()
+    {
         return view('main.membership');
     }
 
-    public function login() {
+    public function login()
+    {
         return view('main.login');
     }
 
-    public function signup() {
+    public function signup()
+    {
         return view('main.signup');
     }
 
-    public function schedule() {
+    public function schedule()
+    {
         return view('main.schedule');
     }
 
-    public function productDetail() {
-        return view('main.product_detail');
+    public function productDetail($id)
+    {
+        $get = Product::where('id', $id)->first();
+        $photos = json_decode($get->photos);
+        $product = (object)
+        [
+            'id' => $get->id,
+            'name' => $get->name,
+            'price' => $get->price,
+            'desc' => $get->description,
+            'spec' => $get->spec,
+            'photos' => $photos
+        ];
+
+        return view('main.product_detail')
+            ->with('product', $product);
     }
 
-    public function programDetail() {
-        return view('main.program_detail');
+    public function programDetail($id)
+    {
+        $get = Program::where('id', $id)->first();
+        $photos = json_decode($get->photos);
+        $program = (object)
+        [
+            'id' => $get->id,
+            'name' => $get->name,
+            'price' => $get->price,
+            'e_desc' => $get->e_description,
+            'a_desc' => $get->a_description,
+            'photos' => $photos
+        ];
+
+        return view('main.program_detail')->with('program', $program);
     }
 
-    public function programCart() {
+    public function programCart()
+    {
         return view('main.program_cart');
     }
 
-    public function productCart() {
+    public function productCart()
+    {
         return view('main.product_cart');
     }
 
-    public function checkoutOne() {
+    public function checkoutOne()
+    {
         return view('main.checkout_one');
     }
 
-    public function checkoutTwo() {
+    public function checkoutTwo()
+    {
         return view('main.checkout_two');
     }
 
-    public function checkoutThree() {
+    public function checkoutThree()
+    {
         return view('main.checkout_three');
     }
 
-    public function programVenom() {
+    public function programVenom()
+    {
         return view('main.program_venom');
     }
 }

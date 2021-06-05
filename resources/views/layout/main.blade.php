@@ -25,7 +25,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="{{ asset('assets/img/logo/loder.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="/"><img src="assets/img/logo/logo.png" class="logo" alt="" /></a>
+                            <a href="/"><img src="{{ asset('assets/img/logo/logo.png') }}" class="logo" alt="" /></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -78,7 +78,7 @@
                             <div class="single-footer-caption mb-50 text-center">
                                 <!-- logo -->
                                 <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                    <a href="/"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="/"><img src="{{ asset('assets/img/logo/logo2_footer.png') }}" alt=""></a>
                                 </div>
                                 <!-- Menu -->
                                 <!-- Header Start -->

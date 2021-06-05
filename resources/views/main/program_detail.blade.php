@@ -23,39 +23,32 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="xzoom-container">
-                        <img class="xzoom" id="xzoom-default" src="assets/img/product/preview/15510374340.jpg"
-                            xoriginal="assets/img/product/preview/15510374340.jpg" width="100%" />
+
+                        <img class="xzoom" id="xzoom-default" src="{{ asset('storage/img_program/' . $program->photos[0] . '') }}"
+                            xoriginal="{{ asset('storage/img_program/' . $program->photos[0] . '') }}" width="100%" />
 
                         <div class="xzoom-thumbs">
-                            <a href="assets/img/product/preview/15510374340.jpg"><img class="xzoom-gallery" id="1"
-                                    width="40" src="assets/img/product/thumb/15510374340.jpg"
-                                    xpreview="assets/img/product/preview/15510374340.jpg" /></a>
+                            @foreach ($program->photos as $photo)
+                                <a href="{{ asset('storage/img_program/'.$photo.'') }}"><img class="xzoom-gallery" id="1"
+                                        width="40" src="{{ asset('storage/img_program/'.$photo.'') }}"
+                                        xpreview="{{ asset('storage/img_program/'.$photo.'') }}" /></a>
+                            @endforeach
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex align-items-baseline">
-                        <h1 class="product-title mr-auto">Venom</h1>
-                        <p class="product-price">399 SAR</p>
+                        <h1 class="product-title mr-auto">{{ $program->name }}</h1>
+                        <p class="product-price">{{ $program->price }} SAR</p>
                     </div>
-                    <div class="row product-description mt-4 px-3">
+                    <div class="product-description mt-4 px-3">
                         <h4>Description</h4>
-                        <p>A 13 week Program that is designed to build a strong foundation in powerlifting and building mass as well, this program deals with submaximal weights with different percentages on a daily basis</p>
-                        <ul>
-                            <li>Program Duration : 13 weeks</li>
-                            <li>Training days : 5 days a week</li>
-                            <li>split : upper-lower body split</li>
-                        </ul>
+                        {!! $program->e_desc !!}
                     </div>
-                    <div class="row product-description mt-4 px-3">
+                    <div class="product-description mt-4 px-3">
                         <h4>تفسير</h4>
-                        <p>برنامج مكون من ١٣ اسبوع، مصمم لبناء اساس قوي و صلب في رياضة الباورليفتينق، هذا البرنامج مصمم ايضا لاضافة قوة كبيرة في الرفعات الرئيسية الثلاثة: سكوات، البينش بريس و الديدليفت، </p>
-                        <p>هذا البرنامج يتعامل مع اوزان تحت الوزن الأقصى و بنسب مختلفة بشكل يومي</p>
-                        <ul>
-                            <li>مدة البرنامج : ١٣ أسبوع</li>
-                            <li>أيام التمرين : ٥ أيام في الإسبوع</li>
-                            <li>نمط التمرين : جزء علوي و جزء سفلي</li>
-                        </ul>
+                        {!! $program->a_desc !!}
+
                     </div>
                     <div class="row">
                         <a href="/program-cart" class="border-btn product-buy">Join Now</a>

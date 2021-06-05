@@ -27,7 +27,15 @@
         </div>
 
         <section class="traning-categories black-bg">
-            <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 mt-5">
+                        <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay=".1s">
+                            <h2>Choose your best course</h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="single-topic text-center mb-30">
@@ -123,7 +131,7 @@
         </section>
         <section class="programs">
             <div class="gallery-area">
-                <div class="container-fluid ">
+                <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s"
@@ -188,7 +196,7 @@
         </section>
         <section class="products">
             <div class="gallery-area">
-                <div class="container-fluid ">
+                <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s"
