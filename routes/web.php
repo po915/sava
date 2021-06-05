@@ -26,6 +26,9 @@ Route::get('/checkout-one', [MainController::class, 'checkoutOne']);
 Route::get('/checkout-two', [MainController::class, 'checkoutTwo']);
 Route::get('/checkout-three', [MainController::class, 'checkoutThree']);
 Route::get('/program-venom', [MainController::class, 'programVenom']);
+Route::get('/deadlift-peak', [MainController::class, 'programDeadliftPeak']);
+Route::get('/deadlift-focus', [MainController::class, 'programDeadliftFocus']);
+Route::get('/deadlift-boost', [MainController::class, 'programDeadliftBoost']);
 
 Route::any('/test', function () {
   $ss = array("a", "b", "c");

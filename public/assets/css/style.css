@@ -7709,3 +7709,11 @@ section.checkout .sm-border-btn {
     outline: 0;
     box-shadow: none !important;
 }
+
+.td-1 {
+    border: 1px solid #b8b8b8 !important;
+}
+.td-2 {
+    background-color: #686868;
+    border: 1px solid #686868;
+}

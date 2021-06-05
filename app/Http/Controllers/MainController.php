@@ -148,6 +148,21 @@ class MainController extends Controller
 
     public function programVenom()
     {
-        return view('main.program_venom');
+        return view('programs.venom');
+    }
+
+    public function programDeadliftPeak()
+    {
+        return view('programs.deadlift_peak');
+    }
+
+    public function programDeadliftFocus()
+    {
+        return view('programs.deadlift_focus');
+    }
+
+    public function programDeadliftBoost()
+    {
+        return view('programs.deadlift_boost');
     }
 }
