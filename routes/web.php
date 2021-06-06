@@ -25,10 +25,17 @@ Route::get('/program-cart', [MainController::class, 'programCart']);
 Route::get('/checkout-one', [MainController::class, 'checkoutOne']);
 Route::get('/checkout-two', [MainController::class, 'checkoutTwo']);
 Route::get('/checkout-three', [MainController::class, 'checkoutThree']);
+
+
+
+/////////// Programs
 Route::get('/program-venom', [MainController::class, 'programVenom']);
 Route::get('/deadlift-peak', [MainController::class, 'programDeadliftPeak']);
 Route::get('/deadlift-focus', [MainController::class, 'programDeadliftFocus']);
 Route::get('/deadlift-boost', [MainController::class, 'programDeadliftBoost']);
+Route::get('/full-force', [MainController::class, 'fullForce']);
+Route::get('/reload', [MainController::class, 'reLoad']);
+Route::get('/rage', [MainController::class, 'rage']);
 
 Route::any('/test', function () {
   $ss = array("a", "b", "c");

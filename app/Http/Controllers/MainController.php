@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Program;
 
+use function Ramsey\Uuid\v1;
+
 class MainController extends Controller
 {
     public function index()
@@ -164,5 +166,20 @@ class MainController extends Controller
     public function programDeadliftBoost()
     {
         return view('programs.deadlift_boost');
+    }
+
+    public function fullForce()
+    {
+        return view('programs.full_force');
+    }
+
+    public function reLoad()
+    {
+        return view('programs.reload');
+    }
+
+    public function rage()
+    {
+        return view('programs.rage');
     }
 }
